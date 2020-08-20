@@ -1,23 +1,23 @@
-# OrangeFox Recovery Project
+# TWRP Recovery Project
 
 ### How to build ###
 
 ```bash
 # Create dirs
-$ mkdir ofox ; cd ofox
+$ mkdir twrp ; cd twrp
 
 # Init repo
-$ repo init --depth=1 -u https://gitlab.com/OrangeFox/Manifest.git -b fox_9.0
+$ repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
 
 # Clone my local repo
-$ git clone https://gitlab.com/android_samsung_universal7870/manifest/android_manifest_samsung_on7xelte.git -b orangefox .repo/local_manifests
+$ git clone https://github.com/samsungexynos7870/android_device_samsung_on7xelte.git -b twrp device/samsung/on7xelte
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Build
-$ mv device/samsung/on7xelte/build_ofox.sh .
-$ . build_ofox.sh on7xelte
+$ mv device/samsung/on7xelte/build_twrp.sh .
+$ . build_twrp.sh on7xelte
 ```
 
 ## Credits
