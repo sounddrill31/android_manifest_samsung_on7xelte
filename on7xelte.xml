@@ -23,5 +23,12 @@
 
     <!-- Hardware -->   
     <project name="android_hardware_samsung" path="hardware/samsung" remote="on7xelte" revision="lineage-17.1" />
+
+	    <!-- board support package (bsp) -->
+    <project name="android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="gitty" revision="lineage-17.1" />
+    <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="gitty" revision="lineage-17.1" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="gitty" revision="lineage-17.1" />
+    <project name="android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="gitty" revision="lineage-17.1" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="gitty" revision="lineage-17.1" />
 		
 </manifest>
