@@ -15,7 +15,7 @@
     <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="sounddrill" revision="lineage-17.1-oss_bsp-vndk" />
 
     <!-- Kernel -->
-    <project name="common/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="sounddrill" revision="aosp" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="sounddrill" revision="aosp" />
 
     <!-- Vendor -->
     <project name="android_vendor_samsung_on7xelte" path="vendor/samsung/on7xelte" remote="on7xelte" revision="common" />
