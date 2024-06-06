@@ -9,6 +9,9 @@
     <remote fetch="https://github.com/samsungexynos7870" name="on7xelte" />
     <remote fetch="https://github.com/sounddrill31" name="sounddrill" />
     <remote fetch="https://github.com/Jack-Pots" name="Jack-Pots" />
+
+    <!-- Removals -->
+	<remove-project name="LineageOS/android_packages_apps_Etar" />
 	
     <!-- Device -->
     <project name="android_device_samsung_on7xelte" path="device/samsung/on7xelte" remote="sounddrill" revision="lineage-17.1" />
